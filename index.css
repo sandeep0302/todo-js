@@ -1,7 +1,10 @@
-body{
+body {
     background-color: azure;
+    align-items: center;
+    justify-content: center;
 }
-div{
+
+div {
     width: 406px;
 }
 
@@ -15,8 +18,9 @@ div{
     font-weight: bold;
 
 }
+
 .add-todo {
-     
+
     width: 90px;
     height: 36px;
     border-color: blue;
@@ -28,48 +32,55 @@ div{
     margin-left: 5px;
     margin-top: 10px;
 }
-.title{
+
+.title {
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(7, 7, 131, 0.788);
 }
-.main{
-    margin-top:100px ;
+
+.main {
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
 
 }
-.todo-item{
+
+.todo-item {
     display: flex;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: blue;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-left: 100px;
     align-items: center;
     font-size: 18px;
-   
+
 
 }
-.delete-button{
+
+.delete-button {
     font-family: Arial, Helvetica, sans-serif;
     color: brown;
-    font-weight:bold;
+    font-weight: bold;
     margin-left: 38px;
     width: 100px;
     height: 32px;
     padding: 5px;
     border-radius: 5px;
-    
+
 }
-.edit{
+
+.edit {
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
-    font-weight:bold;
+    font-weight: bold;
     margin-left: 38px;
     width: 100px;
     height: 32px;
     padding: 5px;
     border-radius: 5px;
-    
+
 }
